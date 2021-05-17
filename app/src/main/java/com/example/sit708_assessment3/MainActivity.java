@@ -2,18 +2,22 @@ package com.example.sit708_assessment3;
 
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
-import android.view.View;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Adapter;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity {
+    private RecyclerView tasks;
+    private TasksAdapter tasksAdapter;
+    private ArrayList<String> items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,14 +26,22 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        items = new ArrayList<>();
+        items.add("First Task");
+        items.add("Second Task");
+        items.add("Third Task");
+        items.add("Fourth Task");
+        items.add("Fifth Task");
+        items.add("Sixth Task");
+        items.add("Seventh Task");
+        items.add("Eighth Task");
+        items.add("Ninth Task");
+        items.add("Tenth Task");
+
+        tasks = findViewById(R.id.tasks);
+        tasks.setLayoutManager(new LinearLayoutManager(this));
+        tasksAdapter = new TasksAdapter(this, items);
+        tasks.setAdapter(tasksAdapter);
     }
 
     @Override
@@ -47,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_checklist) {
             return true;
         }
 

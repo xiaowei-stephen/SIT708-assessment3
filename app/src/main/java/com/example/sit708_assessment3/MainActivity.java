@@ -12,7 +12,10 @@ import android.view.MenuItem;
 import android.widget.Adapter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView tasks;
@@ -27,16 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         items = new ArrayList<>();
-        items.add("First Task");
-        items.add("Second Task");
-        items.add("Third Task");
-        items.add("Fourth Task");
-        items.add("Fifth Task");
-        items.add("Sixth Task");
-        items.add("Seventh Task");
-        items.add("Eighth Task");
-        items.add("Ninth Task");
-        items.add("Tenth Task");
+        String[] task_category = getResources().getStringArray(R.array.task_category);
+        items.addAll(Arrays.asList(task_category));
 
         tasks = findViewById(R.id.tasks);
         tasks.setLayoutManager(new LinearLayoutManager(this));

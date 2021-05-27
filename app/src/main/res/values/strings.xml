@@ -3,4 +3,85 @@
     <string name="action_checklist">Checklist</string>
     <string name="image_desc">Task Images</string>
     <string name="task_title">Sample Task Title</string>
+    
+    <string name="category_what">What should I do?</string>
+    <string name="category_why">Why should I do it?</string>
+    <string name="category_how">How can I do it?</string>
+
+    <string-array name="task_category">
+        <item>Lodge the tax return</item>
+        <item>Claim your superannuation</item>
+        <item>Clear your debt</item>
+        <item>Request a refund of your OSHC</item>
+        <item>Return your transport card</item>
+        <item>Claim your deposit</item>
+        <item>Cancel your phone plan</item>
+        <item>Cancel your car insurance</item>
+        <item>Cancel your contracts</item>
+        <item>Make a backup of your files</item>
+        <item>Get verification of AWLR</item>
+        <item>Ask for letters of recommendation</item>
+        <item>Sell you stuff</item>
+        <item>Shipping things home</item>
+        <item>Transfer money</item>
+        <item>Close your bank account</item>
+    </string-array>
+
+    <string-array name="category_what">
+        <item>This content tells the user what exactly them need to do.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>
+        <item>13.</item>
+        <item>14.</item>
+        <item>15.</item>
+        <item>16.</item>
+    </string-array>
+
+    <string-array name="category_why">
+        <item>This content explains to the user why them should do it. </item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>
+        <item>13.</item>
+        <item>14.</item>
+        <item>15.</item>
+        <item>16.</item>
+    </string-array>
+
+    <string-array name="category_how">
+        <item>This content provides guidance for the user to complete this task.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>
+        <item>13.</item>
+        <item>14.</item>
+        <item>15.</item>
+        <item>16.</item>
+    </string-array>
+
 </resources>

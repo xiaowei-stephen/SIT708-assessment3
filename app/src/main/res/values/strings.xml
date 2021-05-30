@@ -3,19 +3,44 @@
     <string name="action_checklist">Checklist</string>
     <string name="image_desc">Task Images</string>
     <string name="task_title">Sample Task Title</string>
-    
+    <!--
+      ~ The category names.
+      -->
     <string name="category_what">What should I do?</string>
     <string name="category_why">Why should I do it?</string>
     <string name="category_how">How can I do it?</string>
-
+    <!--
+      ~ The task image names.
+      -->
+    <string-array name="task_image">
+        <item>debt</item>
+        <item>tax</item>
+        <item>superannuation</item>
+        <item>oshc</item>
+        <item>transport</item>
+        <item>deposit</item>
+        <item>mobile</item>
+        <item>car</item>
+        <item>contracts</item>
+        <item>backup</item>
+        <item>verification</item>
+        <item>reference</item>
+        <item>sell</item>
+        <item>shipping</item>
+        <item>transfer</item>
+        <item>close</item>
+    </string-array>
+    <!--
+      ~ The task names.
+      -->
     <string-array name="task_category">
+        <item>Clear your debt</item>
         <item>Lodge the tax return</item>
         <item>Claim your superannuation</item>
-        <item>Clear your debt</item>
         <item>Request a refund of your OSHC</item>
         <item>Return your transport card</item>
         <item>Claim your deposit</item>
-        <item>Cancel your phone plan</item>
+        <item>Cancel your mobile plan</item>
         <item>Cancel your car insurance</item>
         <item>Cancel your contracts</item>
         <item>Make a backup of your files</item>
@@ -26,62 +51,117 @@
         <item>Transfer money</item>
         <item>Close your bank account</item>
     </string-array>
-
+    <!--
+      ~ The details of the first category.
+      -->
     <string-array name="category_what">
-        <item>This content tells the user what exactly them need to do.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
-        <item>11.</item>
-        <item>12.</item>
-        <item>13.</item>
-        <item>14.</item>
-        <item>15.</item>
-        <item>16.</item>
+        <item>First things first, you will want to take care of any outstanding debt.</item>
+        <item>First, you need to work out if you need to lodge a tax return. If needed, you should
+            lodge a tax return to Australian Taxation Office before the due date.</item>
+        <item>Superannuation, or super, is money put aside by your employer over your working life
+            for you to live on when you retire from work.You should claim your superannuation if all
+            required conditions are met.</item>
+        <item>You can request a refund of your Overseas Student Health Cover (OSHC) if you meet the
+            required conditions. For example, your OSHC has not expired if you are leaving Australia.</item>
+        <item>If your are leaving Australia but you still have a positive balance on your myki, you can apply for a refund.</item>
+        <item>If your lease is up, is there a deposit you can claim back? If your lease is not up yet,
+            is there a penalty for abandoning your contract? You need to figure it out before leaving Australia.</item>
+        <item>You should cancel your mobile plan before leaving Australia.</item>
+        <item>If you have a car insurance, you should cancel it before leaving Australia.</item>
+        <item>You should cancel all your contracts before leaving Australia including water,
+            electricity, gas and Internet contract.</item>
+        <item>You should make a backup of your files such as final year project before leaving Australia.</item>
+        <item>In case you have worked in Australia and if you intend to apply for any benefit in
+            your country, such as that of the migrant returned in Spain, do not forget to get the
+            verification of working life residence in Australia.</item>
+        <item>Yeah, it might be a bit awkward but chances are you took on some challenging work
+            during your time in Australia. If you put in the effort, then you deserve a good reference.</item>
+        <item>If you have been in Australia for years, you might have accumulated a lot of stuff.
+            For those things you do not want to take home such as a TV or furniture, it is a good idea
+            to start selling it off a month or so before you leave.</item>
+        <item>If you have been in Australia for years, you might have accumulated a lot of stuff.
+            You might have some things you would rather bring home with you. Find out if there is an
+            import duty on these items. Particularly if it is something big like a car. You will need to
+            calculate how much it will cost you to take the things you simply cannot part with.</item>
+        <item>You should transfer your money out of your bank account if you decide to close it.</item>
+        <item>if you have an Australia bank account, it might be a good idea to keep it open to make
+            getting your tax refund and superannuation easier. However, once you have received them,
+            you will want to close the account.</item>
     </string-array>
-
+    <!--
+      ~ The details of the second category.
+      -->
     <string-array name="category_why">
-        <item>This content explains to the user why them should do it. </item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
-        <item>11.</item>
-        <item>12.</item>
-        <item>13.</item>
-        <item>14.</item>
-        <item>15.</item>
-        <item>16.</item>
+        <item>If you have any outstanding debt, you will not be allowed to close your Australian bank account.</item>
+        <item>If you miss the due date, interest will apply to any amount you owe after the due date.</item>
+        <item>Millions in unclaimed super is lost every year by people leaving the country unaware
+            they can claim their contributions when they leave.</item>
+        <item>A lot of money is lost every year by people leaving the country unaware
+            they can request a refund of their OSHC when they leave.</item>
+        <item>A lot of money is lost every year by people leaving the country unaware
+            they can request a refund of their myki when they leave.</item>
+        <item>This is what a good tenant should do and you can avoid a lot of unnecessary trouble
+            for yourself and your landlord if you do it before leaving Australia.</item>
+        <item>If you forget to cancel your mobile plan before leaving Australia, you will still be
+            charged or receive bill from your mobile provider monthly.</item>
+        <item>You will still be charged by your insurance company and you may lose the chance to
+            apply for a refund if you do it too late.</item>
+        <item>You will still be charged after leaving Australia if you forget to do it.</item>
+        <item>Your access to University systems such as your student email account will be deactivated
+            half year to one year after your graduation, so your important documents will be lost
+            if you do not make a backup of them.</item>
+        <item>This information is needed if you either have applied to have your Australian pension
+            paid outside Australia or want to get a pension under a social security agreement with
+            another country.</item>
+        <item>This will help your chances when you go to find a job back home or in your next destination.</item>
+        <item>You do not have to do this if you have nothing to sell.</item>
+        <item>You do not have to do this if everything you want to take home can be carry-on.</item>
+        <item>Most banks, when closing your account, would like to see the account being at zero before they proceed with the closure.</item>
+        <item>Why? Well, If you do decide to continue using your Australia bank account think about
+            the hassle; fees, change of address, online banking and the various costs for using your card outside of Australia.</item>
     </string-array>
-
+    <!--
+      ~ The details of the third category.
+      -->
     <string-array name="category_how">
-        <item>This content provides guidance for the user to complete this task.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
-        <item>11.</item>
-        <item>12.</item>
-        <item>13.</item>
-        <item>14.</item>
-        <item>15.</item>
-        <item>16.</item>
+        <item>Fines, loans and other bills should be taken care of before you leave.</item>
+        <item>You can either use the Do I need to lodge a tax return tool in ATO online
+            services through your myGov account or access the web-based tool to help you work out
+            if you need to lodge a tax return. If needed, you can choose from of the following
+            options depending on your circumstances. First, you can odge your tax return online
+            with myTax – this is the quick, safe and secure way to prepare and lodge your own return.
+            Second, you can lodge your tax return with a registered tax agent. Third, you can
+            lodge a paper tax return.</item>
+        <item>Information on the ATO website can help you work out if you meet all required conditions
+            to claim your super. To claim your super directly from your super fund, fill out a
+            Departing Australia Superannuation Payment (DASP) application form online.</item>
+        <item>You can either submit a paper refund request form or a digital refund request form to
+            your OSHC provider directly.</item>
+        <item>You can either apply for a refund online or visit the public transport hub to apply for a refund.</item>
+        <item>No matter your lease is up or not, you should make sure you request it to your landlord
+            early enough to get it by the time you leave.</item>
+        <item>You can cancel your mobile plan via a call or on the app of your mobile provider.</item>
+        <item>Cancelling your car insurance is generally a simple process. Depending on who you are
+            insured with, you might be able to cancel it online, which is the easiest way to do it.
+            However, lots of insurance companies want to speak to the policy holder to cancel,
+            if that is the case, you will need to call your insurance company.</item>
+        <item>To cancel your contract, it is simple. First, you should contact your water/energy/Internet
+            provider either over the phone or online. Next, you need to provide  the right information
+            such as your account number and proof of identification. Finally, pay an exit fee and any outstanding bills.</item>
+        <item>You should download your account data from University systems to your PC or upload to the cloud.</item>
+        <item>You can get it through Centrelink completing the form verification of working life
+            residence in Australia (AUS027).</item>
+        <item>You will want to choose someone who can confidently write about your career and talents
+            in a convincing way, so choose your references based on those who know you best. And it
+            is generally best to send your request for a recommendation in a polite way as early as you can.</item>
+        <item>There are many websites or apps where you can sell your stuff such as Gumtree, Facebook Marketplace and eBay.</item>
+        <item>There are many international shipping companies which can help you ship things home such as DHL, FedEx and UPS.</item>
+        <item>When it comes to transferring money, there are a few options. Ideally you will still
+            have your bank account from your home country and you can transfer it to that or to a
+            family member. If not, it is recommended that you use a money transfer service. Bank to
+            bank transfers can sometimes cost you a small fortune, so check out fees before you try
+            something like this.</item>
+        <item>You can close your bank account either over a call or on the bank mobile app.</item>
     </string-array>
 
 </resources>
